@@ -13,9 +13,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.Serializable;
 import java.util.List;
 
-class ItemAdapter extends ArrayAdapter<Items> {
+class ItemAdapter extends ArrayAdapter<Items> implements Serializable {
 
     List<Items> items;//Arraylist
 

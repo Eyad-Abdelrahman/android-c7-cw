@@ -2,7 +2,7 @@ package com.example.android.listviewproject;
 
 import java.io.Serializable;
 
-class Items implements Serializable {
+class Items implements java.io.Serializable {
 
 
 

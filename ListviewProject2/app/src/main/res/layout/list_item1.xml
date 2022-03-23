@@ -57,4 +57,14 @@
         android:text="Price:"
         android:textSize="30sp" />
 
+    <ImageView
+        android:id="@+id/deleteItem"
+        android:layout_width="44dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="2dp"
+        app:srcCompat="@drawable/ic_baseline_delete_24" />
+
 </RelativeLayout>
